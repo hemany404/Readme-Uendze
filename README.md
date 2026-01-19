@@ -135,7 +135,7 @@ GET /api/v1/mercados/resumo?data=YYYY-MM-DD
 ```http
 GET /api/v1/mercados
 GET /api/v1/mercados{simbolo}
-GET /api/v1/mercados/{symbol}/history?start=YYYY-MM-DD&end=YYYY-MM-DD
+GET /api/v1/mercados/{simbolo}/history?start=YYYY-MM-DD&end=YYYY-MM-DD
 Entre outros
 ```
 
@@ -160,9 +160,9 @@ from uendze import Client
 
 client = Client(api_key="SUA_API_KEY")
 
-markets = client.markets.list()
+markets = client.mercados.resumo()
 
-history = client.markets.history(
+history = client.mercados.history(
     symbol="BFAAA",
     start="2024-01-01",
     end="2024-01-31"
