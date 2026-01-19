@@ -51,7 +51,32 @@ O Uendze foi desenhado para:
 
 ---
 
-## **✅ Benefícios Principais**
+
+## **🧠 O Problema**
+
+
+1.  Dados do mercado Angolano são difíceis de acessar programaticamente
+2.  APIs globais têm baixa cobertura regional
+3.  Não existem APIs públicas focadas no mercado local
+4.  Dados estão dispersos, manuais ou em PDF
+5.  Falta histórico estruturado
+
+---
+
+## **A Solução Uendze**
+
+O Uendze resolve isso criando:
+
+>  **camada única de dados financeiros**
+>  **modelo de dados consistente**
+>  **API REST simples e versionada**
+>  **SDKs** para facilitar integrações
+>  **Arquitetura pensada para escalar**
+
+
+---
+
+## **Benefícios Principais**
 
 > Simples, direto e útil.
 
@@ -60,30 +85,6 @@ O Uendze foi desenhado para:
 *  Modelo de dados preparado para **histórico e análises**
 *  Menos tempo a coletar dados manualmente
 *  Base sólida para produtos financeiros futuros
-
----
-
-## **🧠 O Problema**
-
-Atualmente em Angola:
-
-1.  Não existem APIs públicas financeiras modernas
-2.  Dados estão dispersos, manuais ou em PDF
-3.  Desenvolvedores precisam “raspar” dados
-4.  Falta histórico estruturado
-
----
-
-## **A Solução Uendze**
-
-O Uendze resolve isso criando:
-
->  Uma **camada única de dados financeiros**
->  Um **modelo de dados consistente**
->  Uma **API REST simples e versionada**
->  **SDKs** para facilitar integrações
-
-Começamos por **Angola**, com profundidade e qualidade, antes de qualquer expansão.
 
 ---
 
