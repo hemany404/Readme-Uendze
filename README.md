@@ -65,11 +65,11 @@ O Uendze foi desenhado para:
 
 A Uendze resolve isso criando:
 
->  **camada única de dados financeiros**
->  **modelo de dados consistente**
->  **API REST simples e versionada**
->  **SDKs** para facilitar integrações
->  **Arquitetura pensada para escalar**
+>  **camada única de dados financeiros -**
+>  **modelo de dados consistente -**
+>  **API REST simples e versionada -**
+>  **SDKs** para facilitar integrações-
+>  **Arquitetura pensada para escalar -**
 >  **Documentação clara**
 
 
