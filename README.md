@@ -1,10 +1,9 @@
 <div align="center">
 
-<img src="./assets/uendze-logo.png" alt="Uendze Logo" width="260" />
 
-# **Uendze.**
 
-### Plataforma de Dados Financeiros do Mercado Angolano
+# **Uendze:Plataforma de Dados Financeiros do Mercado Angolano**
+
 
 <br />
 
@@ -16,9 +15,9 @@
 
 ---
 
-## **O que é o Uendze?**
+## **O que é a Uendze?**
 
-O **Uendze** é uma plataforma de **dados financeiros** focada no **mercado angolano**, criada para resolver um problema central:
+A **Uendze** é uma plataforma de **dados financeiros** focada no **mercado angolano**, criada para resolver um problema central:
 
 >  A inexistência de **dados financeiros estruturados, padronizados e acessíveis via API** em Angola.
 
@@ -35,7 +34,7 @@ O projeto está atualmente em fase de MVP (Produto Mínimo Viável) e tem como o
 
 <br />
 
-> O Uendze está a ser desenvolvido do zero, com foco em modelo de dados correto e crescimento sustentável.
+> A Uendze está a ser desenvolvido do zero, com foco em modelo de dados correto e crescimento sustentável.
 
 ---
 
@@ -64,7 +63,7 @@ O Uendze foi desenhado para:
 
 ## **A Solução Uendze**
 
-O Uendze resolve isso criando:
+A Uendze resolve isso criando:
 
 >  **camada única de dados financeiros**
 >  **modelo de dados consistente**
@@ -126,7 +125,7 @@ GET /api/v1/markets/{symbol}/history?start=YYYY-MM-DD&end=YYYY-MM-DD
 
 ## **SDKs (em desenvolvimento)**
 
-Além da API REST, o Uendze disponibilizará **SDKs** para facilitar o consumo dos dados.
+Além da API REST, a Uendze disponibilizará **SDKs** para facilitar o consumo dos dados.
 
 ###  Objetivo dos SDKs
 
