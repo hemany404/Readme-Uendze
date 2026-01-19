@@ -71,6 +71,7 @@ O Uendze resolve isso criando:
 >  **API REST simples e versionada**
 >  **SDKs** para facilitar integrações
 >  **Arquitetura pensada para escalar**
+>  **Documentação clara**
 
 
 ---
