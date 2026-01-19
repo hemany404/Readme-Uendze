@@ -16,7 +16,7 @@
 
 ---
 
-## **O que é o Uendze? (Visão Geral)**
+## **O que é o Uendze?**
 
 O **Uendze** é uma plataforma de **dados financeiros** focada no **mercado angolano**, criada para resolver um problema central:
 
