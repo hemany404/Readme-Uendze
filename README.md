@@ -172,6 +172,6 @@ history = client.markets.history(
 
 <div align="center">
 
-**Uendze.**
+**#Praça.**
 
 </div>
