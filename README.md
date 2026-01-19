@@ -80,7 +80,7 @@ O Uendze resolve isso criando:
 
 >  Uma **camada única de dados financeiros**
 >  Um **modelo de dados consistente**
->  Uma **API REST clara**
+>  Uma **API REST simples e versionada**
 >  **SDKs** para facilitar integrações
 
 Começamos por **Angola**, com profundidade e qualidade, antes de qualquer expansão.
