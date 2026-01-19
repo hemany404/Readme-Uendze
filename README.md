@@ -1,100 +1,117 @@
 <div align="center">
 
-<img src="./assets/uendze-logo.png" alt="Uendze Logo" width="320" />
+<img src="./assets/uendze-logo.png" alt="Uendze Logo" width="260" />
 
-# Uendze
+# **Uendze.**
 
-### Dados Financeiros do Mercado Angolano
+### Plataforma de Dados Financeiros do Mercado Angolano
 
-**API e ferramentas para acesso estruturado a dados financeiros de Angola.**
+<br />
 
- **Status:** MVP em desenvolvimento
+![Status](https://img.shields.io/badge/Status-MVP%20em%20desenvolvimento-yellow)
+![Foco](https://img.shields.io/badge/Foco-Mercado%20Angolano-red)
+![Produto](https://img.shields.io/badge/Tipo-API%20%26%20SDK-blue)
 
 </div>
 
 ---
 
-## 📌 O que é o Uendze?
+## **O que é o Uendze? (Visão Geral)**
 
-O **Uendze** é uma plataforma tecnológica criada para resolver um problema real: a **falta de acesso simples, padronizado e programável a dados financeiros do mercado angolano**.
+O **Uendze** é uma plataforma de **dados financeiros** focada exclusivamente no **mercado angolano**, criada para resolver um problema central:
 
-O projeto nasce com uma abordagem **API First**, focada em desenvolvedores, analistas e startups que precisam consumir dados financeiros de forma confiável.
+> ❌ A inexistência de **dados financeiros estruturados, padronizados e acessíveis via API** em Angola.
 
-> 🎯 **Foco atual:** construir um MVP sólido, simples e bem estruturado.
+O projeto nasce com uma abordagem **API-first**, servindo como infraestrutura base para desenvolvedores, analistas, startups e fintechs.
 
----
+> 🎯 **Missão:** tornar dados financeiros angolanos acessíveis, utilizáveis e confiáveis.
 
-## 🎯 Objetivo do Projeto
+<br />
 
-* Criar a **primeira base moderna de dados financeiros focada em Angola**
-* Disponibilizar esses dados via **API REST clara e previsível**
-* Facilitar análises, estudos e desenvolvimento de produtos financeiros
+<p align="center">
+ <img src="./assets/uendze-logo.png" width="90%" alt="Uendze"/>
+</p>
 
-> ⚠️ O foco inicial **não é escala**, mas **qualidade e validação técnica**.
+<br />
 
----
-
-## 👥 Público-Alvo
-
-O Uendze foi pensado para:
-
-* 👨‍💻 **Desenvolvedores** que precisam integrar dados financeiros
-* 📊 **Analistas e pesquisadores**
-* 🚀 **Startups e fintechs locais**
-* 🎓 **Estudantes de tecnologia e finanças**
+> ### **Do 0 ao MVP: o Uendze em construção**
+>
+> O Uendze está a ser desenvolvido do zero, com foco em arquitetura limpa, modelo de dados correto e crescimento sustentável.
 
 ---
 
-## ✅ Benefícios
+## **🎯 Público-Alvo**
 
-✨ **Por que usar o Uendze?**
+O Uendze foi desenhado para:
 
-* 📊 Dados financeiros organizados e centralizados
-* 🔌 API simples e fácil de consumir
-* 🧠 Modelo de dados pensado para histórico e análises
-* ⏱️ Menos tempo coletando dados, mais tempo analisando
-* 🚀 Base preparada para evolução futura
-
----
-
-## 🚧 Status do Projeto (MVP)
-
-> ⚠️ **Em desenvolvimento ativo**
-
-Atualmente em construção:
-
-* Estrutura base da API
-* Modelagem de dados
-* Endpoints principais
-* Pipeline inicial de ingestão de dados
-
-Ainda **não recomendado para uso em produção**.
+* 👨‍💻 **Desenvolvedores** que precisam consumir dados financeiros via API
+* 📊 **Analistas de dados e pesquisadores**
+* 🚀 **Startups e fintechs angolanas**
+* 🎓 **Estudantes** de tecnologia, economia e finanças
 
 ---
 
-## 🧱 Arquitetura (Visão Geral)
+## **✅ Benefícios Principais**
+
+> Simples, direto e útil.
+
+* 📊 Dados financeiros **centralizados** do mercado angolano
+* 🔌 API REST **simples e previsível**
+* 🧠 Modelo de dados preparado para **histórico e análises**
+* ⏱️ Menos tempo a coletar dados manualmente
+* 🚀 Base sólida para produtos financeiros futuros
+
+---
+
+## **🧠 O Problema**
+
+Atualmente em Angola:
+
+1.  Não existem APIs públicas financeiras modernas
+2.  Dados estão dispersos, manuais ou em PDF
+3.  Desenvolvedores precisam “raspar” dados
+4.  Falta histórico estruturado
+
+---
+
+## **💡 A Solução Uendze**
+
+O Uendze resolve isso criando:
+
+> ✔️ Uma **camada única de dados financeiros**
+> ✔️ Um **modelo de dados consistente**
+> ✔️ Uma **API REST clara**
+> ✔️ **SDKs** para facilitar integrações
+
+Começamos por **Angola**, com profundidade e qualidade, antes de qualquer expansão.
+
+---
+
+## **🧱 Arquitetura (Visão Simplificada)**
 
 ```
-Fontes de Dados (Angola)
-          ↓
-   ETL / Processamento
-          ↓
-   Banco de Dados
-          ↓
-      API REST
-          ↓
-  Clientes / Integrações
+Fontes de Dados (Mercado Angolano)
+            ↓
+     Ingestão / ETL
+            ↓
+      Banco de Dados
+            ↓
+        API REST
+            ↓
+        SDKs
+            ↓
+     Aplicações / Análises
 ```
 
 Arquitetura pensada para:
 
 * simplicidade
 * evolução contínua
-* fácil manutenção
+* escalabilidade futura
 
 ---
 
-## 🔌 API — Endpoints Planejados
+## **API – Endpoints (exemplos)**
 
 ```http
 GET /api/v1/markets
@@ -102,44 +119,21 @@ GET /api/v1/markets/{symbol}
 GET /api/v1/markets/{symbol}/history?start=YYYY-MM-DD&end=YYYY-MM-DD
 ```
 
-> ⚠️ Os endpoints podem sofrer ajustes durante o desenvolvimento do MVP.
+>  Endpoints serão evoluidos durante o MVP.
 
 ---
 
-## 🧠 Organização dos Dados (Resumo)
+## **SDKs Oficiais (em desenvolvimento)**
 
-* **Market** → ativo financeiro
-* **MarketDay** → data de negociação
-* **MarketSummary** → preços e volume (OHLCV)
-
-Modelo simples, extensível e orientado a dados históricos.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-* **Backend:** Python + FastAPI
-* **ORM:** SQLAlchemy
-* **Validação:** Pydantic
-* **Banco de Dados:** PostgreSQL / MySQL
-* **Infraestrutura:** Linux, Docker
-* **Documentação:** OpenAPI (Swagger)
-
----
-
-## 📦 SDKs (Planejado)
-
-Além da API, o Uendze terá **SDKs oficiais** para facilitar ainda mais o consumo dos dados.
+Além da API REST, o Uendze disponibilizará **SDKs oficiais** para facilitar o consumo dos dados.
 
 ### 🎯 Objetivo dos SDKs
 
-* Abstrair chamadas HTTP
-* Reduzir complexidade de integração
-* Aumentar produtividade do desenvolvedor
+* Eliminar chamadas HTTP manuais
+* Reduzir erros de integração
+* Aumentar produtividade
 
-### 🐍 SDK Python (primeiro)
-
-Planejado para:
+### Exemplo — SDK Python (planeado)
 
 ```python
 from uendze import Client
@@ -147,30 +141,36 @@ from uendze import Client
 client = Client(api_key="SUA_API_KEY")
 
 markets = client.markets.list()
+
 history = client.markets.history(
-    symbol="BODIVA:ABC",
+    symbol="BFAAA",
     start="2024-01-01",
     end="2024-01-31"
 )
 ```
 
-> ⚠️ SDKs serão lançados **após a estabilização do MVP da API**.
+>  SDKs serão lançados após estabilização do MVP da API.
 
 ---
 
-## 🛣️ Próximos Passos
+## **Tecnologias Utilizadas (MVP)**
 
-* Finalizar MVP da API
-* Validar dados do mercado angolano
-* Publicar documentação inicial
-* Criar SDK Python (primeira versão)
-* Evoluir arquitetura conforme feedback
+| Camada         | Tecnologia         |
+| -------------- | ------------------ |
+| Backend        | Python, FastAPI    |
+| ORM            | SQLAlchemy         |
+| Validação      | Pydantic           |
+| Banco de Dados | SQLite inicialmente/PostgreSQL(depois)  |
+| Infra          |  ainda sem infra   |
+| Docs           | OpenAPI (Swagger)  |
+
+
 
 ---
 
 <div align="center">
 
-**Uendze**
-*Construindo a base de dados financeiros de Angola.*
+**Uendze.**
+*Infraestrutura de dados financeiros feita para Angola.*
 
 </div>
