@@ -87,27 +87,11 @@ A Uendze resolve isso criando:
 
 ---
 
-## **Arquitetura (Visão Simplificada)**
-
-```
-     Fontes de Dados
-            ↓
-     Ingestão / ETL
-            ↓
-      Banco de Dados
-            ↓
-        API REST
-            ↓
-        SDKs
-            ↓
-     Aplicações / Análises
-```
-
 Arquitetura pensada para:
 
-* simplicidade
-* evolução contínua
-* escalabilidade futura
+> * simplicidade
+> * evolução contínua
+> * escalabilidade futura
 
 ---
 
@@ -168,6 +152,16 @@ history = client.markets.history(
 
 
 ---
+
+## **Observação: Este é um repositório de demonstração**
+
+O repositório principal da Uendze é privado.
+
+---
+
+
+
+
 
 <div align="center">
 
