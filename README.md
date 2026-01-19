@@ -23,8 +23,6 @@ A **Uendze** é uma plataforma de **dados financeiros** focada no **mercado ango
 
 O projeto nasce com uma abordagem **API-first**, servindo como infraestrutura base para desenvolvedores, analistas, startups e fintechs.
 
-O projeto está atualmente em fase de MVP (Produto Mínimo Viável) e tem como objetivo validar a base técnica e o modelo de dados antes de expandir funcionalidades e cobertura.
-
 
 <br />
 
@@ -94,13 +92,51 @@ Arquitetura pensada para:
 > * escalabilidade futura
 
 ---
+## **Status**
 
-## **API – Endpoints (exemplos)**
+O projeto encontra-se **ativo**, em fase de **desenvolvimento do MVP(Produto Mínimo Viável)**, com foco em estabilidade, modelo de dados e endpoints essenciais.
+
+---
+
+## **API – Endpoints Disponíveis (MVP)**
+
+>  Resumo Diário do Mercado
+
+> Este endpoint retorna o **resumo consolidado de um dia específico de negociação** no mercado angolano.
 
 ```http
-GET /api/v1/markets
-GET /api/v1/markets/{symbol}
-GET /api/v1/markets/{symbol}/history?start=YYYY-MM-DD&end=YYYY-MM-DD
+GET /api/v1/mercados/resumo?data=YYYY-MM-DD
+```
+
+> Resposta:
+
+<br />
+
+<p align="center">
+ <img src="./assets/resposta-endpoint.png" width="70%" alt="screenshot no navegador executando o endpoint"/>
+</p>
+
+<br />
+
+> Casos de Uso:
+
+* Dashboards financeiros diários
+* Relatórios de mercado
+* Monitoramento de ativos
+* Base para análises históricas
+
+>  Este endpoint faz parte do **núcleo do MVP** e poderá evoluir.
+
+---
+
+
+## **API – Outros Endpoints (exemplos)**
+
+```http
+GET /api/v1/mercados
+GET /api/v1/mercados{simbolo}
+GET /api/v1/mercados/{symbol}/history?start=YYYY-MM-DD&end=YYYY-MM-DD
+Entre outros
 ```
 
 >  Endpoints serão evoluidos durante o MVP.
