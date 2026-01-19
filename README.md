@@ -18,13 +18,14 @@
 
 ## **O que é o Uendze? (Visão Geral)**
 
-O **Uendze** é uma plataforma de **dados financeiros** focada exclusivamente no **mercado angolano**, criada para resolver um problema central:
+O **Uendze** é uma plataforma de **dados financeiros** focada no **mercado angolano**, criada para resolver um problema central:
 
 >  A inexistência de **dados financeiros estruturados, padronizados e acessíveis via API** em Angola.
 
 O projeto nasce com uma abordagem **API-first**, servindo como infraestrutura base para desenvolvedores, analistas, startups e fintechs.
 
-> 🎯 **Missão:** tornar dados financeiros angolanos acessíveis, utilizáveis e confiáveis.
+O projeto está atualmente em fase de MVP (Produto Mínimo Viável) e tem como objetivo validar a base técnica e o modelo de dados antes de expandir funcionalidades e cobertura.
+
 
 <br />
 
@@ -34,9 +35,7 @@ O projeto nasce com uma abordagem **API-first**, servindo como infraestrutura ba
 
 <br />
 
-> ### **Do 0 ao MVP: o Uendze em construção**
->
-> O Uendze está a ser desenvolvido do zero, com foco em arquitetura limpa, modelo de dados correto e crescimento sustentável.
+> O Uendze está a ser desenvolvido do zero, com foco em modelo de dados correto e crescimento sustentável.
 
 ---
 
@@ -52,7 +51,7 @@ O Uendze foi desenhado para:
 ---
 
 
-## **🧠 O Problema**
+## **O Problema**
 
 
 1.  Dados do mercado Angolano são difíceis de acessar programaticamente
@@ -91,7 +90,7 @@ O Uendze resolve isso criando:
 ## **Arquitetura (Visão Simplificada)**
 
 ```
-Fontes de Dados (Mercado Angolano)
+     Fontes de Dados
             ↓
      Ingestão / ETL
             ↓
@@ -124,9 +123,9 @@ GET /api/v1/markets/{symbol}/history?start=YYYY-MM-DD&end=YYYY-MM-DD
 
 ---
 
-## **SDKs Oficiais (em desenvolvimento)**
+## **SDKs (em desenvolvimento)**
 
-Além da API REST, o Uendze disponibilizará **SDKs oficiais** para facilitar o consumo dos dados.
+Além da API REST, o Uendze disponibilizará **SDKs** para facilitar o consumo dos dados.
 
 ###  Objetivo dos SDKs
 
@@ -160,6 +159,7 @@ history = client.markets.history(
 | -------------- | ------------------ |
 | Backend        | Python, FastAPI    |
 | ORM            | SQLAlchemy         |
+| ETL            | Pandas             |
 | Validação      | Pydantic           |
 | Banco de Dados | SQLite inicialmente/PostgreSQL(depois)  |
 | Infra          |  ainda sem infra   |
