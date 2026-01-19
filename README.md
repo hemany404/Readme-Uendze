@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="./img/uendze-logo.png" alt="Uendze Logo" width="320" />
+<img src="./assets/uendze-logo.png" alt="Uendze Logo" width="320" />
 
-# 🇦🇴 Uendze
+# Uendze
 
-### Plataforma de Dados Financeiros do Mercado Angolano
+### Dados Financeiros do Mercado Angolano
 
-**API e SDKs para acesso estruturado, simples e confiável aos dados financeiros de Angola.**
+**API e ferramentas para acesso estruturado a dados financeiros de Angola.**
 
-🚧 **Status:** MVP em desenvolvimento
+ **Status:** MVP em desenvolvimento
 
 </div>
 
