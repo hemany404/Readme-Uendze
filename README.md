@@ -20,7 +20,7 @@
 
 O **Uendze** é uma plataforma de **dados financeiros** focada exclusivamente no **mercado angolano**, criada para resolver um problema central:
 
-> ❌ A inexistência de **dados financeiros estruturados, padronizados e acessíveis via API** em Angola.
+>  A inexistência de **dados financeiros estruturados, padronizados e acessíveis via API** em Angola.
 
 O projeto nasce com uma abordagem **API-first**, servindo como infraestrutura base para desenvolvedores, analistas, startups e fintechs.
 
@@ -40,14 +40,14 @@ O projeto nasce com uma abordagem **API-first**, servindo como infraestrutura ba
 
 ---
 
-## **🎯 Público-Alvo**
+## **Público-Alvo**
 
 O Uendze foi desenhado para:
 
-* 👨‍💻 **Desenvolvedores** que precisam consumir dados financeiros via API
-* 📊 **Analistas de dados e pesquisadores**
-* 🚀 **Startups e fintechs angolanas**
-* 🎓 **Estudantes** de tecnologia, economia e finanças
+*  **Desenvolvedores** que precisam consumir dados financeiros via API
+*  **Analistas de dados e pesquisadores**
+*  **Startups e fintechs angolanas**
+*  **Estudantes** de tecnologia, economia e finanças
 
 ---
 
@@ -55,11 +55,11 @@ O Uendze foi desenhado para:
 
 > Simples, direto e útil.
 
-* 📊 Dados financeiros **centralizados** do mercado angolano
-* 🔌 API REST **simples e previsível**
-* 🧠 Modelo de dados preparado para **histórico e análises**
-* ⏱️ Menos tempo a coletar dados manualmente
-* 🚀 Base sólida para produtos financeiros futuros
+*  Dados financeiros **centralizados** do mercado angolano
+*  API REST **simples e previsível**
+*  Modelo de dados preparado para **histórico e análises**
+*  Menos tempo a coletar dados manualmente
+*  Base sólida para produtos financeiros futuros
 
 ---
 
@@ -74,20 +74,20 @@ Atualmente em Angola:
 
 ---
 
-## **💡 A Solução Uendze**
+## **A Solução Uendze**
 
 O Uendze resolve isso criando:
 
-> ✔️ Uma **camada única de dados financeiros**
-> ✔️ Um **modelo de dados consistente**
-> ✔️ Uma **API REST clara**
-> ✔️ **SDKs** para facilitar integrações
+>  Uma **camada única de dados financeiros**
+>  Um **modelo de dados consistente**
+>  Uma **API REST clara**
+>  **SDKs** para facilitar integrações
 
 Começamos por **Angola**, com profundidade e qualidade, antes de qualquer expansão.
 
 ---
 
-## **🧱 Arquitetura (Visão Simplificada)**
+## **Arquitetura (Visão Simplificada)**
 
 ```
 Fontes de Dados (Mercado Angolano)
@@ -127,7 +127,7 @@ GET /api/v1/markets/{symbol}/history?start=YYYY-MM-DD&end=YYYY-MM-DD
 
 Além da API REST, o Uendze disponibilizará **SDKs oficiais** para facilitar o consumo dos dados.
 
-### 🎯 Objetivo dos SDKs
+###  Objetivo dos SDKs
 
 * Eliminar chamadas HTTP manuais
 * Reduzir erros de integração
@@ -171,6 +171,5 @@ history = client.markets.history(
 <div align="center">
 
 **Uendze.**
-*Infraestrutura de dados financeiros feita para Angola.*
 
 </div>
