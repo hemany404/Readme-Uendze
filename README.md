@@ -183,7 +183,7 @@ history = client.mercados.history(
 | Validação      | Pydantic           |
 | Banco de Dados | SQLite inicialmente/PostgreSQL(depois)  |
 | Infra          |  ainda sem infra   |
-| Docs           | OpenAPI (Swagger)  |
+| Docs           | OpenAPI (Swagger) inicialmente  |
 
 
 
