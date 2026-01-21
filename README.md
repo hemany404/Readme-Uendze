@@ -160,7 +160,7 @@ from uendze import Client
 
 client = Client(api_key="SUA_API_KEY")
 
-markets = client.mercados.resumo()
+markets = client.mercados.resumo    ()
 
 history = client.mercados.history(
     symbol="BFAAA",
