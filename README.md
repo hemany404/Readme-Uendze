@@ -40,10 +40,10 @@ O projeto nasce com uma abordagem **API-first**, servindo como infraestrutura ba
 
 O Uendze foi desenhado para:
 
-*  **Desenvolvedores** que precisam consumir dados financeiros via API
-*  **Analistas de dados e pesquisadores**
-*  **Startups e fintechs angolanas**
-*  **Estudantes** de tecnologia, economia e finanças
+> *  **Desenvolvedores** que precisam consumir dados financeiros via API
+> *  **Analistas de dados e pesquisadores**
+> *  **Startups e fintechs angolanas**
+> *  **Estudantes** de tecnologia, economia e finanças
 
 ---
 
@@ -51,11 +51,11 @@ O Uendze foi desenhado para:
 ## **O Problema**
 
 
-1.  Dados do mercado Angolano são difíceis de acessar programaticamente
-2.  APIs globais têm baixa cobertura regional
-3.  Não existem APIs públicas focadas no mercado local
-4.  Dados estão dispersos, manuais ou em PDF
-5.  Falta histórico estruturado
+*  Dados do mercado Angolano são difíceis de acessar programaticamente
+*  APIs globais têm baixa cobertura regional
+*  Não existem APIs públicas focadas no mercado local
+*  Dados estão dispersos, manuais ou em PDF
+*  Falta histórico estruturado
 
 ---
 
@@ -183,7 +183,7 @@ history = client.mercados.history(
 | Validação      | Pydantic           |
 | Banco de Dados | SQLite inicialmente/PostgreSQL(depois)  |
 | Infra          |  ainda sem infra   |
-| Docs           | OpenAPI (Swagger)  |
+| Docs           | OpenAPI (Swagger) inicialmente  |
 
 
 
