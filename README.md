@@ -181,7 +181,7 @@ history = client.mercados.history(
 | ORM            | SQLAlchemy         |
 | ETL            | Pandas             |
 | Validação      | Pydantic           |
-| Banco de Dados | SQLite inicialmente/PostgreSQL(depois)  |
+| Banco de Dados | PostgreSQL         |
 | Infra          |  ainda sem infra   |
 | Docs           | OpenAPI (Swagger) inicialmente  |
 
