@@ -184,6 +184,7 @@ history = client.mercados.history(
 | Banco de Dados | SQLite inicialmente/PostgreSQL(depois)  |
 | Infra          |  ainda sem infra   |
 | Docs           | OpenAPI (Swagger) inicialmente  |
+| Testes         |  Pytest            |
 
 
 
