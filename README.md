@@ -27,7 +27,7 @@ O projeto nasce com uma abordagem **API-first**, servindo como infraestrutura ba
 <br />
 
 <p align="center">
- <img src="./assets/uendze-ListaEspra.png" width="90%" alt="site de reserva de acesso"/>
+ <img src="./assets/uendze-ListaEspera.png" width="90%" alt="site de reserva de acesso"/>
 </p>
 
 <br />
@@ -170,21 +170,6 @@ history = client.mercados.serie-temporal(
 ```
 
 >  SDKs serão lançados após estabilização do MVP da API.
-
----
-
-## **Tecnologias Utilizadas (MVP)**
-
-| Camada         | Tecnologia         |
-| -------------- | ------------------ |
-| Backend        | Python, FastAPI    |
-| ORM            | SQLAlchemy         |
-| ETL            | Pandas             |
-| Validação      | Pydantic           |
-| Banco de Dados | PostgreSQL         |
-| Infra          |  ainda sem infra   |
-| Docs           | OpenAPI (Swagger) inicialmente  |
-| Testes         |  Pytest            |
 
 
 
