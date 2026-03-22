@@ -27,7 +27,7 @@ O projeto nasce com uma abordagem **API-first**, servindo como infraestrutura ba
 <br />
 
 <p align="center">
- <img src="./assets/uendze-ListaEspera.png" width="90%" alt="site de reserva de acesso"/>
+ <img src="./assets/uendze-ListaEspra.png" width="90%" alt="site de reserva de acesso"/>
 </p>
 
 <br />
@@ -133,9 +133,9 @@ GET /api/v1/mercados/resumo?data=YYYY-MM-DD
 ## **API – Outros Endpoints (exemplos)**
 
 ```http
-GET /api/v1/mercados
-GET /api/v1/mercados{simbolo}
-GET /api/v1/mercados/{simbolo}/history?start=YYYY-MM-DD&end=YYYY-MM-DD
+GET /api/v1/mercado
+GET /api/v1/mercado/cotacao?simbolo=
+GET /api/v1/mercados/serie-temporal?simbolo=ENSAAAAA&start=YYYY-MM-DD&end=YYYY-MM-DD
 Entre outros
 ```
 
@@ -160,10 +160,10 @@ from uendze import Client
 
 client = Client(api_key="SUA_API_KEY")
 
-markets = client.mercados.resumo    ()
+markets = client.mercados.resumo()
 
-history = client.mercados.history(
-    symbol="BFAAA",
+history = client.mercados.serie-temporal(
+    simbolo="BFAAA",
     start="2024-01-01",
     end="2024-01-31"
 )
