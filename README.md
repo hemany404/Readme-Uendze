@@ -2,7 +2,7 @@
 
 
 
-# **Uendze:Plataforma de Dados Financeiros do Mercado Angolano**
+# **Uendze:Plataforma de Dados do Mercado de capitais Angolano**
 
 
 <br />
@@ -17,7 +17,7 @@
 
 ## **O que é a Uendze?**
 
-A **Uendze** é uma plataforma de **dados financeiros** focada no **mercado angolano**, criada para resolver um problema central:
+A **Uendze** é uma plataforma de **dados** focada no **mercado de capitais angolano**, criada para resolver um problema central:
 
 >  A inexistência de **dados financeiros estruturados, padronizados e acessíveis via API** em Angola.
 
