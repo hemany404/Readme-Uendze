@@ -113,7 +113,7 @@ GET /api/v1/mercados/resumo?data=YYYY-MM-DD
 <br />
 
 <p align="center">
- <img src="./assets/resposta-endpoint.png" width="70%" alt="screenshot no navegador executando o endpoint"/>
+ <img src="./assets/resposta-endpoint.png" width="70%" alt="navegador executando o endpoint"/>
 </p>
 
 <br />
