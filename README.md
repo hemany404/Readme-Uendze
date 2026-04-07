@@ -2,7 +2,7 @@
 
 
 
-# **Uendze:Plataforma de Dados do Mercado de capitais Angolano**
+# **Uendze:Plataforma de Dados do Mercado de capitais angolano**
 
 
 <br />
