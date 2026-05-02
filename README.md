@@ -29,6 +29,9 @@ O projeto nasce com uma abordagem **API-first**, servindo como infraestrutura ba
 <p align="center">
  <img src="./assets/uendze-ListaEspera.png" width="90%" alt="site de reserva de acesso"/>
 </p>
+<p>
+ <a href="https://www.uendze.com">Reserve o teu acesso</a>
+</p>
 
 <br />
 
